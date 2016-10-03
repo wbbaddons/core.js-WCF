@@ -22,5 +22,6 @@
 	
 	<instructions type="install">
 		<instruction type="file" application="wcf">files_wcf.tar</instruction>
+		<instruction type="templateListener" />
 	</instructions>
 </package>
