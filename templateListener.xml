@@ -7,5 +7,12 @@
 			<eventname>requirePaths</eventname>
 			<templatecode><![CDATA['Bastelstu.be/core': 'Bastelstu.be/core/library.min',]]></templatecode>
 		</templatelistener>
+
+		<templatelistener name="requirePathsAcp">
+			<environment>admin</environment>
+			<templatename>header</templatename>
+			<eventname>requirePaths</eventname>
+			<templatecode><![CDATA['Bastelstu.be/core': 'Bastelstu.be/core/library.min',]]></templatecode>
+		</templatelistener>
 	</import>
 </data>
