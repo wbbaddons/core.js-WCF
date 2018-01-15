@@ -3,8 +3,8 @@
 	<packageinformation>
 		<packagename>core.js Polyfill</packagename>
 		<isapplication>0</isapplication>
-		<version>2.5.1</version>
-		<date>2017-11-27</date>
+		<version>2.5.1 pl 1</version>
+		<date>2018-01-15</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -17,7 +17,6 @@
 	</requiredpackages>
 	
 	<compatibility>
-		<api version="2017" />
 		<api version="2018" />
 	</compatibility>
 	
@@ -37,6 +36,10 @@
 	</instructions>
 
 	<instructions type="update" fromversion="2.4.1 pl 4">
+		<instruction type="file" application="wcf">files_wcf.tar</instruction>
+	</instructions>
+
+	<instructions type="update" fromversion="2.5.1">
 		<instruction type="file" application="wcf">files_wcf.tar</instruction>
 	</instructions>
 </package>
